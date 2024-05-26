@@ -67,7 +67,7 @@ void setup() {
 // Function to sound the buzzer for successful access
 void soundBuzzerSuccess() {
   digitalWrite(BUZZER_PIN, HIGH);  // Turn on buzzer
-  delay(500);                      // Wait for 500ms
+  delay(600);                      // Wait for 500ms
   digitalWrite(BUZZER_PIN, LOW);   // Turn off buzzer
 }
 
